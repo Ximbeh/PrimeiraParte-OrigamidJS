@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Funcao Atividade</title>
+</head>
+<body>
+    <script>
+
+        //Crie uma função para verificar se um valor é verdadeiro
+        function variavel(valor){
+            if (variavel=="1"){
+                console.log(true)
+            }
+            else{
+                console.log(false)
+            }
+
+            
+        }
+
+        //Crie uma função matemática que retorna o perímetro de um quadrado
+        function quadrado(lado){
+            return lado*4
+
+        }
+
+        //Crie uma função que retorna o seu nome completo
+        function nomeCompleto (nome,sobrenome){
+            return nome+' '+sobrenome
+        }
+       
+        //Crie uma função que retorna o tipo de dado do argumento passado nela (typeof)
+        function tipo(coisa){
+        return typeof (coisa)
+        }
+
+        // addEventListener é uma função nativa do JavaScript
+        // o primeiro parâmetro é o evento que ocorre e o segundo o Callback
+        // utilize essa função para mostrar no console o seu nome completo
+        // quando o evento 'scroll' ocorrer.
+        addEventListener("click", function evento(pa){
+            console.log("Caire Maia")
+        }
+        )
+            
+        // Corrija o erro abaixo
+        // function precisoVisitar(paisesVisitados) {
+        //   var totalPaises = 193;
+        //   return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`;
+        // }
+        // function jaVisitei(paisesVisitados) {
+        //   return `Já visitei ${paisesVisitados} do total de ${totalPaises} países`;
+        // }
+        // precisoVisitar(20);
+        // jaVisitei(20);
+         function precisoVisitar(paisesVisitados) {
+          var totalPaises = 193;
+          return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`;
+          function jaVisitei(paisesVisitados) {
+          return `Já visitei ${paisesVisitados} do total de ${totalPaises} países`;
+        }
+        }
+        
+        precisoVisitar(20);
+
+
+    </script>
+</body>
+</html>
